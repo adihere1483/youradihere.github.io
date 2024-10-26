@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Gautam's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Aditya Gautam</h1>
+        <p id="greeting"></p> <!-- This will display the greeting message -->
+        <p>Cloud Computing | Data Structures & Algorithms in C</p>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a CSE student focused on Cloud Computing and Data Structures and Algorithms (DSA).I am currently pursuing B.Tech at SRM Institute of Science and Technology.I am passionate about optimizing complex challenges and exploring new technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: C, C++</li>
+            <li>Tools: Git, Linux</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Connect with me on <a href="https://www.linkedin.com/in/adityagautam2005" target="_blank">LinkedIn</a></p>
+    </footer>
+
+    <!-- Link to the JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+// Display a greeting based on the time of day
+function displayGreeting() {
+    const greetingElement = document.getElementById("greeting");
+    const hour = new Date().getHours();
+    let greetingMessage = "";
+
+    if (hour < 12) {
+        greetingMessage = "Good morning!";
+    } else if (hour < 18) {
+        greetingMessage = "Good afternoon!";
+    } else {
+        greetingMessage = "Good evening!";
+    }
+    greetingElement.innerText = greetingMessage;
+}
+
+// Smooth scrolling for anchor links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function(e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+            behavior: "smooth"
+        });
+    });
+});
+
+// Call the greeting function when the page loads
+window.onload = displayGreeting;
