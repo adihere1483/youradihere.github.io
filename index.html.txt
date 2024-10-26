@@ -21,8 +21,11 @@
     <section id="skills">
         <h2>Skills</h2>
         <ul>
-            <li>Programming Languages: C, C++</li>
+            <li>Programming Languages: C, C++,Java,JavaScript</li>
             <li>Tools: Git, Linux</li>
+            <li>Projects: Automatic Solar Tracking System, Water Irrigation System, Cab service website</li>
+            <li>Current: Project on DeadLock, Online price checker</li>
+            <li>Interest in: Figma design, UI/UX, Video Editing (vfx), Writing</li> 
         </ul>
     </section>
 
